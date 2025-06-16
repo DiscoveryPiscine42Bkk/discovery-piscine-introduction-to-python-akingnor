@@ -1,4 +1,8 @@
 nember = float(input("Please enter number: "))
 
 if number < 0:
-  print("This number is
+  print("This number is negative.")
+elif nember > 0:
+  print("This number is positive.")
+else:
+  print("This number is both positive and negative. ")
