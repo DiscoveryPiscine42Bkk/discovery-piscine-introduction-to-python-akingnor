@@ -1,4 +1,15 @@
-original_array = [2, 8, 9, 48, 8, 22, -12, 2]
-new_array = [x + 2 for x in original_array]
-print("Original array:", original_array)
-print("New array:", new_array)
+import sys
+
+def main():
+    if len(sys.argv) != 2:
+        print("none")
+    else:
+        parameter = sys.argv[1]
+        user_input = input("What was the parameter? ")
+        if user_input == parameter:
+            print("Good job!")
+        else:
+            print(f"Nope, sorry...\n")
+
+if __name__ == "__main__":
+    main()
