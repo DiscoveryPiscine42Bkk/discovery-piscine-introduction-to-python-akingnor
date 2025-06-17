@@ -1,4 +1,4 @@
-number = float(input("please enter a nember: "))
+number = float(input("Please enter a nember: "))
 
 if number == 0:
   print("This number is equal to zero.")

@@ -1,4 +1,4 @@
-nember = float(input("Please enter number: "))
+nember = float(input("Please enter a number: "))
 
 if number < 0:
   print("This number is negative.")
